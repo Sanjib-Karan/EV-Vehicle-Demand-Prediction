@@ -9,6 +9,6 @@ This project focuses on predicting future demand for electric vehicles (EVs) usi
 
 **Feature Engineering**: Extracted time-based trends and preserved categorical attributes like state and county.
 
-**Modeling**: Implemented a Random Forest Regressor with hyperparameter tuning using **__RandomizedSearchCV**__.
+**Modeling**: Implemented a Random Forest Regressor with hyperparameter tuning using ***RandomizedSearchCV***.
 
 **Evaluation**: Measured performance using MAE, MSE, and R² for comprehensive assessment.
