@@ -1,14 +1,14 @@
 # EV-Vehicle-Demand-Prediction
-This project focuses on forecasting the future adoption of Electric Vehicles (EVs) using historical registration and usage data. With the rapid growth of EVs, understanding future demand is crucial for planning infrastructure such as charging stations and supporting sustainable transportation initiatives.
+This project focuses on predicting future demand for electric vehicles (EVs) using historical registration data and regional information. Accurate forecasting is essential for effective infrastructure planning, such as installing charging stations and managing grid capacity for sustainable growth.
 
-**The workflow includes:**
+**Key Features:**
 
-**Data Preprocessing**: Cleaning missing values, converting dates, and handling outliers using IQR-based capping.
+**Data Preprocessing**: Cleaned missing values, standardized date formats, and converted numeric columns.
 
-**Feature Engineering**: Extracting time-based features and encoding categorical variables like County, State, and Vehicle Primary Use.
+**Outlier Handling**: Applied IQR-based capping to maintain data quality without removing useful records.
 
-**Model Development**: Implemented a Random Forest Regressor optimized with RandomizedSearchCV for accurate predictions.
+**Feature Engineering**: Extracted time-based trends and preserved categorical attributes like state and county.
 
-**Evaluation**: Assessed model performance using MAE, MSE, and R² Score for robust validation.
+**Modeling**: Implemented a Random Forest Regressor with hyperparameter tuning using **__RandomizedSearchCV**__.
 
-This project demonstrates the complete pipeline from raw data to a predictive model, offering insights into EV growth trends to assist in future planning and decision-making.
+**Evaluation**: Measured performance using MAE, MSE, and R² for comprehensive assessment.
